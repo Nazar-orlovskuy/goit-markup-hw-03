@@ -1,11 +1,11 @@
-html, body, ul, a, nav, address {
+/* html, body, ul, a, nav, address {
     background-color: #ffffff;
     font-family: "Roboto", sans-serif;
     color: #434455;
     text-decoration: none;
     list-style-type: none;
     font-style: normal;
-}
+} */
 
 /* Обнулення заголовків та параграфів */
 h1, h2, h3, h4, h5, h6, p {
@@ -13,13 +13,21 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 /* Обнулення списків */
-ul {
-    margin: 0;
-    padding-left: 0;
+body {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 /* Робимо фото блочними */
@@ -74,19 +82,22 @@ header{
 }
 
 /* стиль навігації */
-.page-navigation, .link {
+.page-navigation{
+    display: flex;
+    gap: 40px;
+    padding: 24px 0;
+}
+
+.link {
 color: #2e2f42;
 font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
-display: flex;
-gap: 40px;
-padding: 24px 0;
 }
 
-.header .navigation .page-navigation .link:hover,
-.header .navigation .page-navigation .link:focus {
+.page-navigation .link:hover,
+.page-navigation .link:focus {
     color: #404bbf;
 }
 
@@ -101,8 +112,8 @@ padding: 24px 0;
     gap: 40px;
     }
 
-.page-address .address-link:hover,
-.page-address .address-link:focus {
+.address-link:hover,
+.address-link:focus {
     color: #404bbf;
 }
 
@@ -139,8 +150,8 @@ padding: 24px 0;
     border-radius: 4px;
 }
 
-.button-order .button:hover,
-.button-order .button:focus {
+.button:hover,
+.button:focus {
     background-color: #404bbf;
 }
 
@@ -314,16 +325,19 @@ border-top: none;
     letter-spacing: 0.03em;
     display: inline-block;
     margin-bottom: 16px;
+    padding-bottom: 0;
     }
 
-.footer .footer-logo {
+.footer-logo {
     color: #f4f4fd;
 }
 
-.footer .footer-paragraph {
+.footer-paragraph {
     font-size: 16px;
     font-weight: 400;
     color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
+    height: 72px;
 }
