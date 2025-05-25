@@ -16,7 +16,7 @@ header{
     background-color: #E7E9FC;
 }
 
-.header .home-link {
+.home-link {
     font-size: 18px;
     font-weight: 700;
     text-decoration: none;
@@ -27,12 +27,12 @@ header{
     letter-spacing: 0.03em;
         }
 
-.home-link .logo {
+.logo {
     color: #2e2f42;
 }
 
 /* стиль навігації */
-.header .navigation .page-navigation, .link {
+.page-navigation, .link {
 color: #2e2f42;
 font-size: 16px;
 font-weight: 500;
@@ -46,7 +46,7 @@ letter-spacing: 0.02em;
 }
 
 /* стиль адресу */
-.header .address .page-address {
+.page-address {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
@@ -54,8 +54,8 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
 }
 
-.header .address .page-address .address-link:hover,
-.header .address .page-address .address-link:focus {
+.page-address .address-link:hover,
+.page-address .address-link:focus {
     color: #404bbf;
 }
 
@@ -65,7 +65,7 @@ letter-spacing: 0.02em;
     background-color: #2e2f42;
 }
 
-.button-order .title {
+.title {
     font-weight: 700;
     font-size: 56px;
     text-align: center;
@@ -74,7 +74,7 @@ letter-spacing: 0.02em;
     letter-spacing: 0.02em;
 }
 
-.button-order .button {
+.button {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -91,7 +91,7 @@ letter-spacing: 0.02em;
 }
 
 /* оформлення стилю другої секції */
-.our-advantage .our-advantage-title {
+.our-advantage-title {
     font-weight: 500;
     font-size: 20px;
     color: #2e2f42;
@@ -99,7 +99,7 @@ letter-spacing: 0.02em;
     line-height: 1.2;
 }
 
-.our-advantage .paragraph {
+.paragraph {
     font-size: 16px;
     font-weight: 400;
     color: #434455;
@@ -112,7 +112,7 @@ letter-spacing: 0.02em;
     background-color: #f4f4fd;
 }
 
-.our-team .title-second {
+.title-second {
     font-size: 36px;
     font-weight: 700;
     color: #2e2f42;
@@ -122,11 +122,11 @@ letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
-.our-team .employers {
+.employers {
 background-color: #ffffff;
 }
 
-.our-team .our-team-title {
+.our-team-title {
     font-size: 20px;
     font-weight: 500;
     color: #2E2F42;
@@ -135,7 +135,7 @@ background-color: #ffffff;
     letter-spacing: 0.02em;
 }
 
-.our-team .our-team-paragraph {
+.our-team-paragraph {
     font-size: 16px;
     font-weight: 400;
     color: #434455;
@@ -154,11 +154,11 @@ background-color: #ffffff;
     letter-spacing: 0.02em;
     text-transform: capitalize;
 }
-.portfolio .portfolio-photo {
+.portfolio-photo {
     background-color: #ffffff;
 }
 
-.portfolio .portfolio-title {
+.portfolio-title {
     font-size: 20px;
     font-weight: 500;
     color: #2e2f42;
@@ -166,7 +166,7 @@ background-color: #ffffff;
     letter-spacing: 0.02em;
 }
 
-.portfolio .portfolio-paragraph {
+.portfolio-paragraph {
     font-size: 16px;
     font-weight: 400;
     color: #434455;
