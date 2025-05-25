@@ -1,0 +1,204 @@
+html, body, ul, a, nav, address {
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    text-decoration: none;
+    list-style-type: none;
+    font-style: normal;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* стиль логотипу */
+header{
+    background-color: #E7E9FC;
+}
+
+.header .home-link {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    color: #4d5ae5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+        }
+
+.home-link .logo {
+    color: #2e2f42;
+}
+
+/* стиль навігації */
+.header .navigation .page-navigation, .link {
+color: #2e2f42;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.header .navigation .page-navigation .link:hover,
+.header .navigation .page-navigation .link:focus {
+    color: #404bbf;
+}
+
+/* стиль адресу */
+.header .address .page-address {
+    color: #434455;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.header .address .page-address .address-link:hover,
+.header .address .page-address .address-link:focus {
+    color: #404bbf;
+}
+
+/* оформлення стилю першої секції
+стиль кнопки */
+.button-order {
+    background-color: #2e2f42;
+}
+
+.button-order .title {
+    font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    color: #ffffff;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.button-order .button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #4d5ae5;
+    color: #ffffff;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
+
+.button-order .button:hover,
+.button-order .button:focus {
+    background-color: #404bbf;
+}
+
+/* оформлення стилю другої секції */
+.our-advantage .our-advantage-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #2e2f42;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+
+.our-advantage .paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+}
+
+/* оформлення стилю третьої секції */
+.our-team {
+    background-color: #f4f4fd;
+}
+
+.our-team .title-second {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2e2f42;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.our-team .employers {
+background-color: #ffffff;
+}
+
+.our-team .our-team-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42;
+    text-align: center;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.our-team .our-team-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+    text-align: center;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* оформлення стилю четвертої секції */
+.portfolio .title-second{
+    font-size: 36px;
+    font-weight: 700;
+    color: #2e2f42;
+    text-align: center;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+.portfolio .portfolio-photo {
+    background-color: #ffffff;
+}
+
+.portfolio .portfolio-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #2e2f42;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.portfolio .portfolio-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* оформлення футера та логотипу */
+.footer {
+    background-color: #2e2f42;
+    }
+
+.footer .home-link {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Raleway", sans-serif;
+    background-color: #2e2f42;
+    color: #4d5ae5;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    }
+
+.footer .footer-logo {
+    color: #f4f4fd;
+}
+
+.footer .footer-paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    color: #f4f4fd;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
