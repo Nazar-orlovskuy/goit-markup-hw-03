@@ -32,8 +32,8 @@ img {
 /* Задаємо container */
 .container {
     max-width: 1158px;
-    padding-left: auto;
-    padding-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -264,7 +264,7 @@ border-radius: 0 0 4px 4px;
     row-gap: 48px;
     }
 
-.portfolio-bank-app, .portfolio-cashless, .portfolio-meditation, .portfolio-taxi, .portfolio-screen, .portfolio-courses {
+.portfolio-app {
     width: calc((100% - 48px) / 3);
     }
 
