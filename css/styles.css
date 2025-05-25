@@ -7,8 +7,35 @@ html, body, ul, a, nav, address {
     font-style: normal;
 }
 
+/* Обнулення заголовків та параграфів */
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+/* Обнулення списків */
+ul {
+    margin: 0;
+    padding-left: 0;
+}
+
 body {
     font-family: "Roboto", sans-serif;
+}
+
+/* Робимо фото блочними */
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+/* Задаємо container */
+.container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* стиль логотипу */
