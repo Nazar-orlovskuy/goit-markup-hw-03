@@ -151,12 +151,11 @@ color: #434455;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 48px;
-    padding-top: 188px;
-   }
+       }
    
-.button-button {
+/* .button-button {
 padding-bottom: 188px;
-}
+} */
 
 .button {
     font-family: "Roboto", sans-serif;
@@ -237,7 +236,7 @@ padding-bottom: 188px;
 /* оформлення стилю третьої секції */
 .our-team {
     background-color: #f4f4fd;
-
+    padding: 120px 0;
     }
 
 .title-second {
@@ -249,7 +248,7 @@ padding-bottom: 188px;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     margin-bottom: 72px;
-    padding-top: 120px;
+    
 }
 
 .list-empl {
@@ -354,7 +353,7 @@ border-top: none;
 
 }
 
-.footer-link {
+/* .footer-link {
 font-size: 18px;
     font-size: 18px;
     font-weight: 700;
@@ -363,7 +362,7 @@ font-size: 18px;
     font-family: "Raleway", sans-serif;
     line-height: 1.17;
     letter-spacing: 0.03em;
-}
+} */
 
 .link-link {
     font-size: 18px;
