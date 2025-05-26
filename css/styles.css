@@ -56,6 +56,10 @@ img {
     justify-content: space-between;
 }
 
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .navigation {
     display: flex;
     align-items: center;
@@ -133,6 +137,7 @@ color: #434455;
 стиль кнопки */
 .button-order {
     background-color: #2e2f42;
+    padding: 188px 0;
     }
 
 .title {
